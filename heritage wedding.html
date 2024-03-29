@@ -93,4 +93,30 @@
           </footer>
              
 </body>
+    <script>
+  var heritagevideo = document.getElementById("heritageWeddingVideo");
+var iconVol = document.getElementById("heritageiconFormuteVideo");
+var iconAc = document.getElementById("heritageiconForPlayVideo");
+iconVol.onclick = function() {
+  if (heritagevideo.muted) {
+    heritagevideo.muted = false;
+    iconVol.src = "volume-up-4-64.png";
+  } else {
+    heritagevideo.muted = true;
+    iconVol.src = "mute-64.png";
+  }
+}
+
+
+iconAc.onclick = function() {
+  if (heritagevideo.paused) {
+    heritagevideo.play();
+    iconAc.src = "pause-64.png";
+  } else {
+    heritagevideo.pause();
+    iconAc.src = "play-64.png";
+ }
+}
+
+</script>
 </html>
