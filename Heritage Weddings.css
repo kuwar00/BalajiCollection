@@ -1,4 +1,4 @@
-.hero1{
+/* .hero1{
 
     width: 100vh;
     height: 100vh;
@@ -9,7 +9,7 @@
     align-items: center;
     justify-content: center;
 
-}
+} */
 
 .logo{
     width: 10%;
@@ -18,6 +18,7 @@
 #navbar > ul{
     position: relative;
     right: 10%;
+    margin: 0px;
 }
 nav ul li{
     list-style: none;
@@ -52,7 +53,28 @@ nav{
     z-index: 1;
     right: 0rem;
 }
-
+#heritageWedding-container > div.heritage-classDiv > h2 {
+    position: absolute;
+    top: 38rem;
+    left: 43rem;
+    font-size: 50px;
+    color: #f5f2f2;
+    margin: 30px;
+    text-align: center;
+    /* align-items: center; */
+    display: inline;
+    justify-items: center;
+}
+#heritageWedding-container > div.heritage-classDiv > h3 {  
+    display: inline-flex;
+    position: absolute;
+    top: 38rem;
+    left: 47rem;
+    font-size: 18px;
+    color: #f5f2f2;
+    text-align: center;
+    justify-items: center;
+}
 #heritageWedding-container {
     display: flex;
     position: absolute;
@@ -85,10 +107,36 @@ nav{
 }
 #heritageWedding-container3 {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     position: absolute;
     top: 130rem;
-    width: 109rem;
+    width: 112rem;
+}
+
+body > h1 {
+    font-size: 58pt;
+    color: #030303;
+    font-style: italic;
+    
+    text-align: center;
+    position: relative;
+    align-items: center;
+    display: inline-flex;
+
+    justify-items: center;
+    left: 38rem;
+    justify-content: center;
+    top: 6rem;
+    flex-direction: row;
+}
+.heritageGrad {
+    height: 100%;
+    width: 112rem;
+    background-image: linear-gradient(1deg, rgba(0, 0, 0, 0.5) 3%, rgba(0, 0, 0, 0) 65%) !important;
+    position: absolute;
+    left: -5px;
+    top: 123px;
+
 }
 #heritageWeddingVideo {
     height: 100vh;
@@ -97,6 +145,28 @@ nav{
     height: 806px;
 }
 
+#idHeritageIcon {
+    position: relative;
+    top: 166rem;
+    left: 38rem;
+   
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    width: 57px;
+}
+
+
+#heritageiconFormuteVideo {
+    height: 20px;
+    cursor: pointer;
+}
+
+#heritageiconForPlayVideo {
+    height: 20px;
+    cursor: pointer;
+}
 
 .footerForWomenPage {
     background-color: #020202;
@@ -117,11 +187,11 @@ body > footer > div > div{
     display: flex;
 }
 
-body > footer > div > div > div:nth-child(1) > ul{
+ body > footer > div > div > div:nth-child(1) > ul{
 
     list-style: none;
     }
-body > footer > div > div > div:nth-child(2) > ul{
+ body > footer > div > div > div:nth-child(2) > ul{
 
     list-style: none;
     }
@@ -188,6 +258,16 @@ body > footer > div > div{
     color: #ffffff;
     transition: all 0.5s ease;
 }
+body > footer > div > div > div:nth-child(1) > ul {
+    padding: 0px ;
+}
+body > footer > div > div > div:nth-child(2) > ul {
+    padding: 0px ;
+}
+body > footer > div > div > div:nth-child(3) > ul {
+    padding: 0px ;
+}
+
 
 .wpFooter-col .socialLinksWp a:hover{
     color: #24262b;
